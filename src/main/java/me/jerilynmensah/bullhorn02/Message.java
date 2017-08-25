@@ -20,7 +20,6 @@ public class Message {
     private String content;
 
     @NotNull
-    @Size(min=3)
     private Date posteddate;
 
     @NotNull
